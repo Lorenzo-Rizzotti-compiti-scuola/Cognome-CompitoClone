@@ -1,0 +1,39 @@
+  135  git clone https://github.com/sena-meucci/progettoStampa.git
+  136  ls
+  137  cd progettoStampa/
+  138  nano stampa.cpp 
+  139  git commit -m "inserito nome"
+  140  git add -a
+  141  git add -A
+  142  git commit -m "inserito nome"
+  143  git status
+  144  git log
+  145  bit reset --hard HEAD^
+  146  git reset --hard HEAD^
+  147  ls
+  148  nano stampa.cpp 
+  149  ls
+  150  ls -a
+  151  nano stampa.cpp 
+  152  git config user.name "DreamingCodes"
+  153  git config user.email dev@dreaming.codes
+  154  nano stampa.cpp 
+  155  git add -a
+  156  git add -A
+  157  git commit -m "inserito nome"
+  158  nano stampa.cpp 
+  159  git branch BugFix
+  160  ls
+  161  git checkout BugFix
+  162  ls
+  163  nano stampa.cpp 
+  164  git commit -m "errore risolto in stampa"
+  165  git add stampa.cpp 
+  166  git commit -m "errore risolto in stampa"
+  167  git checkout master
+  168  git merge BugFix
+  169  history 30 > comandi.txt
+  170  cat comandi.txt 
+  171  ls
+  172  rm comandi.txt 
+  173  history 39 > comandi.txt
